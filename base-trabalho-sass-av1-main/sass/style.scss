@@ -1,0 +1,66 @@
+@use "_variables.scss" as var;
+
+body{
+    font-family: "Rubik", sans-serif;
+    background-color: var.$color-bg; 
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero{
+    max-width: 1216px;
+    margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+a {
+    color: var.$color-card;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+    padding: 64px;
+}
+
+.btn-register{
+    background-color: var.$color-yellow;
+    color: var.$color-card;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    width: 176px;
+    height: 43px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: var.$color-bg;
+}
+
+.btn-register:hover{
+    background-color: var.$color-card;
+    color: var.$color-yellow;
+}
+
+.title{
+    color: var.$color-yellow;
+    font-size: 64px;
+    font-weight: bolder;
+    margin-top: 127px;
+    margin-bottom: 42px;
+    align-items: center;
+    text-align: center;
+}
