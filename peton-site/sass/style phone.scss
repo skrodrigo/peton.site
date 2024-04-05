@@ -1,0 +1,172 @@
+@use "_variables.scss" as var;
+
+body{
+    font-family: "Rubik", sans-serif;
+    background-color: var.$color-bg; 
+    margin: 0;
+    padding: 0;
+    max-width: 390px;
+}
+
+.hero {
+    padding: 37px 0 0 0;
+    max-width: 391px;
+    overflow: hidden;
+}
+
+nav{
+    display: none;
+}
+
+.btn-register{
+    display: none;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.header img{
+    width: 150px;
+    height: 54.86px;
+}
+
+.title{
+    color: var.$color-yellow;
+    font-size: 24px;
+    text-align: center;
+}
+
+.infos-extra{
+    display: flex;
+    align-items: center;
+    color: var.$color-border;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 1rem;
+}
+
+.info-1, .info-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-big img{
+    width: 270px;
+    height: 288px;
+}
+
+.content-img-atras{
+    display: none;
+}
+
+.sobrepor{
+    display: none;
+}
+
+.wait-list-top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wait-list-down{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 49px;
+}
+
+input{
+    width: 352px;
+    height: 58px;
+    border-radius: 50px;
+    border: 1px solid var.$color-border;
+    background-color: var.$color-bg;
+    color: var.$color-card;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.btn-wait-list-top, .btn-wait-list-down{
+    background-color: var.$color-yellow;
+    color: var.$color-card;
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    border: none;
+    cursor: pointer;
+    width: 352px;
+    height: 58px;
+    font-weight: bolder;
+    font-size: 16px;
+    color: var.$color-bg;
+    margin-bottom: 1rem;
+}
+
+.btn-wait-list-top:hover, .btn-wait-list-down:hover{
+    background-color: var.$color-card;
+    color: var.$color-yellow;
+}
+
+.content-cards{
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(2, 2fr);
+}
+
+.card-1, .card-2, .card-3, .card-4{
+    background-color: var.$color-card;
+    border-radius: 16px;
+    padding: 2rem;
+    margin-top: 40px;
+    width: 225px;
+    height: 225px;
+    align-items: center;
+    margin-left: 60px;
+    margin-right: 65px;
+}
+
+h2{
+    color: var.$color-yellow;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 32px;
+}
+
+h3{
+    color: #5E4E41;
+}
+h4{
+    font-weight: 200;
+    font-size: 16px;
+    color: #B1957E;
+}
+
+.line img{
+    width: 390px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var.$color-card;
+    color: var.$color-border;
+    font-size: 16px;
+    margin-top: 32px;
+}
